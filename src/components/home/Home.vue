@@ -14,7 +14,7 @@ export default {
     },
     methods: {
         change() {
-            this.text = this.text + "Romaric le dieux" + " ";
+            this.text = this.text + "Romaric le dieux";
         }
     }
 }
