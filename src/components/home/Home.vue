@@ -84,60 +84,60 @@ export default {
 }
 </script>
 
-<style lang="scss">
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 2.9vw;
-}
-
-button {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 5vh;
-    color: white;
-    background-color: #3F3D56;
-    width:521px;
-    height:101px;
-}
-
-p {
-    width: 40vw;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.6vw;
-    margin-left: 7%;
-}
-
-ul {
-    list-style-type: none;
-    margin:0%;
-    padding:0%;
-    display: flex;
-    justify-content: center;
-}
-
-ol {
-    margin:0%;
-    margin-top: 28px;
-    padding:0%;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    margin-left: 55px;
-    margin-right: 55px;
-    font-size: 1.3vw;
-}
-
-ol:hover {
-    border-bottom: 2px solid black;
-}
+<style lang="scss"> 
 .accueille {
-    display:flex;
-    justify-content: center;
-    margin-top: 6vw;
-}
+        display:flex;
+        justify-content: center;
+        margin-top: 6vw;
+            h1 {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 2.9vw;
+            }
 
-.start {
-    text-align: center;
-    margin-top: 10vh;
+            button {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 5vh;
+                color: white;
+                background-color: #3F3D56;
+                width:521px;
+                height:101px;
+            }
+
+            p {
+                width: 40vw;
+                font-family: 'Lato', sans-serif;
+                font-size: 1.6vw;
+                margin-left: 7%;
+            }
+
+            ul {
+                list-style-type: none;
+                margin:0%;
+                padding:0%;
+                display: flex;
+                justify-content: center;
+            }
+
+            ol {
+                margin:0%;
+                margin-top: 28px;
+                padding:0%;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                margin-left: 55px;
+                margin-right: 55px;
+                font-size: 1.3vw;
+            }
+
+            ol:hover {
+                border-bottom: 2px solid black;
+            }
+
+            .start {
+                text-align: center;
+                margin-top: 10vh;
+            }
 }
 </style>

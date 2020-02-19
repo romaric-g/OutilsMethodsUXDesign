@@ -22,19 +22,14 @@ export default {
 </script>
 
 <style lang="scss">
-<<<<<<< HEAD
-body {
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
-  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-=======
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,700&display=swap');
->>>>>>> c32ffdebb802ca47a3396c8e5bf15e15985b4fb6
 </style>
