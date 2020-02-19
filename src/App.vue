@@ -2,15 +2,17 @@
   <div id="app">
     <Home/>
     <p>Hello World! 000</p>
+    <Menu/>
   </div>
 </template>
 
 <script>
 import Home from "./components/home/Home"
+import Menu from "./components/menu/Menu"
 
 export default {
   name: 'app',
-  components:  {Home},
+  components:  {Home, Menu},
   data () {
     return {
       
