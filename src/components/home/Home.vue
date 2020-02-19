@@ -1,30 +1,25 @@
 <template>
-    <header>
-        <p>{{text}}</p>
-        <button @click="change">Change</button>
-    </header>
+    <div>
+        <header>
+            <h1>Découvrez les méthodes de L'UX Design</h1>
+        </header>
+        <section>
+            
+        </section>
+    </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            text: "Bienvenue sur la page d'accueil!"
-        }
-    },
-    methods: {
-        change() {
-            this.text = this.text + "Romaric le dieux";
-        }
-    }
+
 }
 </script>
 
 <style lang="scss">
-p {
-    a {
-
-    }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 7%;
 }
 
 </style>
