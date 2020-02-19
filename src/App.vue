@@ -22,5 +22,14 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+body {
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 </style>
