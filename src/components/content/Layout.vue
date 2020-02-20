@@ -210,21 +210,19 @@
                     <p>Un animateur définit les cartes puis des utilisateurs les regroupent et nomment les catégories qu’ils ont créés. Cela permet, après analyse des résultats de créer une architecture du site autour de l’utilisateur.  </p>
                 </Description>
                 <Items title="Mise en oeuvre">
-                    <p>Créez des phrases qui permettent de guider l’utilisateur vers le sujet que vous souhaitez aborder Donnez ensuite ces phrases dans un questionnaire aux utilisateurs afin qu’ils expriment leur ressenti sur le produit</p>
+                    <p>Il faut commencer par écrire les cartes par rapport au contenu du site. Les cartes doivent décrire le contenu avec un titre (un ou deux mots) et une phrase descriptive. Chaque carte représente une fonctionnalité du site.</br>Donnez les cartes à un individu ou à un groupe d’individu afin qu’ils les catégorisent.  </p>
                 </Items>
                 <template v-slot:reminder>
                    <Reminder title="Pourquoi cette méthode ? ">
                         <div class="inter-box"> 
-                            <p>Préparation très rapide</p>
-                        </div>
-                        <div class="inter-box"> 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="33" viewBox="0 0 24 33">
-                                <path id="Icon_material-loop" data-name="Icon material-loop" d="M18,6V1.5l-6,6,6,6V9a9.007,9.007,0,0,1,9,9,8.806,8.806,0,0,1-1.05,4.2l2.19,2.19A11.979,11.979,0,0,0,18,6Zm0,21a9.007,9.007,0,0,1-9-9,8.806,8.806,0,0,1,1.05-4.2L7.86,11.61A11.979,11.979,0,0,0,18,30v4.5l6-6-6-6Z" transform="translate(-6 -1.5)" fill="#fff"/>
-                        </svg>
-                            <p>Méthode flexible, s’utilise tout le long du projet</p>
-                        </div>
-                        <div class="inter-box"> 
-                            <p>Permet d’avoir une bonne base de travail</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+                                <g id="Icon_feather-info" data-name="Icon feather-info" transform="translate(1.5 1.5)">
+                                    <path id="Tracé_173" data-name="Tracé 173" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Tracé_174" data-name="Tracé 174" d="M18,24V18" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Tracé_175" data-name="Tracé 175" d="M18,12h0" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                </g>
+                            </svg>
+                            <p>C’est un incontournable pour l’architecture d’informations Les participants se sentiront très concernés par le tri de carteLe traitement des résultats peut être facilité par de nombreux sites en ligneIl est recommandé de ne pas dépasser 50 cartes afin de ne pas perdre l’utilisateur</p>
                         </div>
                     </Reminder> 
                 </template>
