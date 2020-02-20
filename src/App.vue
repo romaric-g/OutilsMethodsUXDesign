@@ -2,16 +2,18 @@
   <div id="app">
     <Home/>
     <Layout/>
+    <QCM/>  
   </div>
 </template>
 
 <script>
 import Home from "./components/home/Home"
 import Layout from "./components/content/Layout"
+import QCM from "./components/exercices/QCM"
 
 export default {
   name: 'app',
-  components:  {Home ,Layout},
+  components:  {Home ,Layout, QCM},
   data () {
     return {
       
