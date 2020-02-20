@@ -2,16 +2,18 @@
   <div id="app">
     <Home/>
     <Layout/>
+    <DragNDrop/>
   </div>
 </template>
 
 <script>
 import Home from "./components/home/Home"
 import Layout from "./components/content/Layout"
+import DragNDrop from "./components/content/exercices/DragNDrop"
 
 export default {
   name: 'app',
-  components:  {Home ,Layout},
+  components:  {Home ,Layout, DragNDrop},
   data () {
     return {
       

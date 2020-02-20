@@ -162,6 +162,7 @@ import Items from "./elements/Items"
 import Description from "./elements/Description"
 import Reminder from "./elements/Reminder"
 
+
 export default {
     name: "layout",
     components: {Menu, Content, Items, Description, Reminder}
