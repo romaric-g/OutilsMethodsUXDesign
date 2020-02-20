@@ -13,7 +13,6 @@
                 </div>
             </div>
             <slot name="reminder"></slot>
-            <Reminder />
         </div>
     </section>
 </template>
@@ -94,7 +93,17 @@ section {
                 width: 100%;
             }
         }
+
+        .big-title-box .big-title {
+            font-size: 2.4em;
+        }
     }
+
+     @media screen and (max-width: 600px) {
+        .big-title-box .big-title {
+            font-size: 1.8em;
+        }
+     }
 }
 
 </style>

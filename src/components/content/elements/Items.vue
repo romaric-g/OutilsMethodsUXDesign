@@ -1,20 +1,15 @@
 <template>
     <div class="items-box">
-        <h3> Le principe est simple</h3>
+        <h3>{{title}}</h3>
         <div class="content">
-            <div class="item">
-                <p> En amont de l’entretien, préparez des questions. Veillez à ce qu’elles soient suffisamment ouverte, pour obtenir un grand nombre d’informations ( un simple oui ou non n’est pas très constructif )</p>
-            </div>
-            <div class="item">
-                <p>Questionnez, prenez des notes, enregistrez les entretiens, de quoi se rappeler de ce qui à été dit </p>
-            </div>
+            <slot></slot>
         </div>
     </div>   
 </template>
 
 <script>
 export default {
-    
+    props: ["title"]
 }
 </script>
 
@@ -24,6 +19,12 @@ export default {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-column-gap: 1rem;
+        }
+        @media screen and (max-width: 800px) { 
+            .content {
+                grid-template-columns: 1fr;
+                grid-row-gap: 1rem;
+            }
         }
     }
 </style>

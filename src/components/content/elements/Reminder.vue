@@ -63,7 +63,7 @@ export default {
         .reminder-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-auto-rows: 1fr;
             grid-row-gap: 1rem;
             grid-column-gap: 1rem;
             font-weight: 400;
@@ -77,6 +77,11 @@ export default {
                     margin: 0 20px;
                     color: white;
                 }
+            }
+        }
+        @media screen and (max-width: 800px) { 
+            .reminder-content { 
+                grid-template-columns: 1fr;
             }
         }
     }
