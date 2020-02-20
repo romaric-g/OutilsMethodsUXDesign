@@ -31,7 +31,7 @@ export default {
 section {
     min-height: 100vh;
     max-width: 1100px;
-    padding: 20px 40px;
+    padding: 20px;
     width: 100%;
     margin: 0 auto;
 

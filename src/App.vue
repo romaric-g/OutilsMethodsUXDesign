@@ -43,6 +43,7 @@ export default {
 @media screen and (max-width: 900px) {
   body {
     font-size: 14px;
+    min-width: 350px;
   }
 }
      
