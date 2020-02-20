@@ -2,6 +2,7 @@
   <div id="app">
     <Home/>
     <Layout/>
+    <QCM/>  
     <DragNDrop/>
   </div>
 </template>
@@ -9,11 +10,12 @@
 <script>
 import Home from "./components/home/Home"
 import Layout from "./components/content/Layout"
+import QCM from "./components/exercices/QCM"
 import DragNDrop from "./components/content/exercices/DragNDrop"
 
 export default {
   name: 'app',
-  components:  {Home ,Layout, DragNDrop},
+  components:  {Home ,Layout, DragNDrop,QCM},
   data () {
     return {
       
