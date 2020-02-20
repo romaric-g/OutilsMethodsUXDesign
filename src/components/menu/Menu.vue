@@ -280,5 +280,10 @@ nav.close {
     }
 }
 
+@media screen and (max-width: 800px) {
+    nav {
+        
+    }
+}
 
 </style>
