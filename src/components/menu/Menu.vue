@@ -141,7 +141,7 @@ nav {
     width: 360px;
     height: 100vh;
     background-color: white;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.342);
 
     transition-duration: 0.4s;
 
@@ -326,7 +326,7 @@ nav.close {
                 transition-duration: 0.4s;
                 transform: translateX(0);
                 background-color: white;
-                box-shadow: 0px 0 7px black;
+                box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.384);
 
                 .menu {
                     padding: 100px 0 40px 40px;
