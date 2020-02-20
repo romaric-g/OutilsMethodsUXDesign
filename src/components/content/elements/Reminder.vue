@@ -50,7 +50,7 @@ export default {
                 }
             }
         }
-        @media screen and (max-width: 800px) { 
+        @media screen and (max-width: 900px) { 
             .reminder-content { 
                 grid-template-columns: 1fr;
             }

@@ -3,6 +3,7 @@
     <Home/>
     <Layout/>
     <QCM/>  
+    <DragNDrop/>
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 import Home from "./components/home/Home"
 import Layout from "./components/content/Layout"
 import QCM from "./components/exercices/QCM"
+import DragNDrop from "./components/content/exercices/DragNDrop"
 
 export default {
   name: 'app',
-  components:  {Home ,Layout, QCM},
+  components:  {Home ,Layout, DragNDrop,QCM},
   data () {
     return {
       
@@ -45,6 +47,7 @@ export default {
 @media screen and (max-width: 900px) {
   body {
     font-size: 14px;
+    min-width: 350px;
   }
 }
      
