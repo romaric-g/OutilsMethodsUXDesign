@@ -89,6 +89,22 @@
                     </Reminder> 
                 </template>
             </Content>
+                        <Content title="PERSONA" reverse="true">
+                                <Description>
+                                    <h2>La méthode des personas</h2>
+                                    <p>La méthode des personas aide l’équipe à changer de perspective et à rester focalisé sur les utilisateurs cible afin de mieux répondre à leurs besoins et de créer une expérience positive et engageante. Un Persona est une personnalité fictive qui décrit la plupart du temps un prospect type. </p>
+                                </Description>
+                                <Items title="Créer un persona">
+                                    <p>Pour créer un persona, il est nécessaire de réaliser des enquêtes auprès de vos cibles afin de mieux les connaîtres. Une fois un grand nombre d’enquête effectué, vous allez pouvoir dresser un ou plusieurs Persona “type”. Ils permettent de mieux définir les stratégies à appliquer dans le développement d’un projet tier.</p>
+                                </Items>
+                                <template v-slot:reminder>
+                                <Reminder title="Pourquoi cette méthode ? ">
+                                        <div class="inter-box"> 
+                                            <p>«En donnant vie à nos utilisateurs cible, on donne vie à notre projet : et tant il y a de la vie, il y a de l’espoir ! » </p>
+                                        </div>
+                                    </Reminder> 
+                                </template>
+                        </Content>
             <Content title="EXPERIENCE MAP">
                 <Description>
                     <h2>Mener un entretien</h2>
