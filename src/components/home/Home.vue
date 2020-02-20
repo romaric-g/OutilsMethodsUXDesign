@@ -549,10 +549,9 @@ export default {};
 
 
     aside {
-        position: relative;
+
         flex: 2;  
         svg {
-            position: absolute;
             z-index: -1;
             transform: scale(1.2) translate(-40px, -80px);
             width: 450px;
@@ -564,5 +563,48 @@ export default {};
             transform: scale(0.8) translate(-40px,-100px);
         }
     }
+}
+
+@media screen and (max-width: 900px) { 
+
+  .home {
+    padding: 0 20px;
+
+    h1 {
+      text-align: center;
+      white-space: normal;
+    }
+
+    p {
+      width: 100%;
+      max-width: 450px;
+      margin: 30px auto;
+    }
+
+    .start-box {
+      max-width: 100%;
+      width: 300px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      section {
+        flex: 0;
+        order: 2;
+      }
+      aside {
+        flex: 1;
+        order: 1;
+        svg {
+          display: block;
+          width: 350px;
+          max-width: 100%;
+          margin: 0 auto;
+          transform: none;
+        }
+      }
+    }
+  }
 }
 </style>
