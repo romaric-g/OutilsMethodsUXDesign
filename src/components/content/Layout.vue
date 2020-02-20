@@ -179,6 +179,13 @@ main {
         position: sticky;
         top: 0;
         height: 100vh;
+        z-index: 100;
+    }
+}
+@media screen and (max-width: 750px) {
+    main {
+        display: flex;
+        flex-direction: column;
     }
 }
 </style>

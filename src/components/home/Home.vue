@@ -569,6 +569,7 @@ export default {};
 
   .home {
     padding: 0 20px;
+    margin: 40px 0;
 
     h1 {
       text-align: center;
@@ -607,4 +608,5 @@ export default {};
     }
   }
 }
+
 </style>
