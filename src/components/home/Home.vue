@@ -501,7 +501,7 @@ export default {};
         button {
             display: block;
             font-family: "Montserrat";
-            font-weight: 400;
+            font-weight: 700;
             font-size: 2em;
             color: white;
             background-color: #3f3d56;
@@ -509,6 +509,13 @@ export default {};
             height: 65px;
             border: none;
             margin: 0 auto;
+            transition-duration: .2s;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #555275;
+              transform: scale(0.97)
+            }
         }
         ul {
             list-style-type: none;
