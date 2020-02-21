@@ -29,7 +29,6 @@ export default {
 
 <style lang="scss" scoped>
 section {
-    min-height: 100vh;
     max-width: 1100px;
     padding: 20px;
     width: 100%;
