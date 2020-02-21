@@ -170,25 +170,27 @@ section.qcm {
     font-weight : bold;
 }
 
-#button:hover {
-    background-color: #555275;
-    transform: scale(0.97);
-}
-
-#button {
-    transition-duration: .2s;
+button {
     display: block;
     font-family: "Montserrat";
-    font-weight: 900;
-    font-size: 1.5em;
+    font-weight: 700;
+    font-size: 2em;
     color: white;
     background-color: #3f3d56;
-    width: 420px;
-    height: 55px;
+    width: 280px;
+    line-height: 1em;
+    padding: 5px 0;
     border: none;
     margin: 0 auto;
+    transition-duration: .2s;
     cursor: pointer;
+
+    &:hover {
+        background-color: #555275;
+        transform: scale(0.97)
+    }
 }
+
 .decalement_QCM{
     margin-left:10%;
     margin-right:10%;

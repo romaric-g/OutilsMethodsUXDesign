@@ -142,6 +142,13 @@ section.draganddrop {
     grid-template-columns: 1fr 1fr;
     column-gap: 1rem;
 
+    @media screen and (max-width: 900px) {
+        & {
+            grid-template-columns: 1fr;
+            grid-row-gap: 1rem;
+        }
+    }
+
     ul {
         height: 100%;
         list-style: none;
@@ -175,7 +182,6 @@ section.draganddrop {
 }
 
 .validation-box {
-    padding: 40px;
     text-align: center;
 }
 
@@ -200,16 +206,25 @@ section.draganddrop {
   cursor: pointer;
 }
 
-.button {
-  background-color: #3F3D56;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+button {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+    background-color: #3f3d56;
+    width: 280px;
+    line-height: 1em;
+    padding: 5px 0;
+    border: none;
+    margin: 20px auto;
+    transition-duration: .2s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #555275;
+        transform: scale(0.97)
+    }
 }
+
 </style>
