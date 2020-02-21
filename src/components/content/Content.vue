@@ -5,7 +5,7 @@
                 <h1 class="big-title">{{ title }}</h1>
             </div>
             <div class="section-content" :class="{ reverse }">
-                <div class="image-box">
+                <div v-if="!noimage" class="image-box">
                     <slot name="illu"></slot>
                 </div>
                 <div class="content-box">
@@ -23,7 +23,7 @@ import Description from "./elements/Description"
 import Reminder from "./elements/Reminder"
 export default {
     components: {Items, Reminder, Description},
-    props: ["title","reverse","ink"]
+    props: ["title","reverse","ink","noimage"]
 }
 </script>
 
