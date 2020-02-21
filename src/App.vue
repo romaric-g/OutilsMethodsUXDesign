@@ -2,16 +2,18 @@
   <div id="app">
     <Home/>
     <Layout/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Home from "./components/home/Home"
 import Layout from "./components/content/Layout"
+import Footer from "./components/content/Footer"
 
 export default {
   name: 'app',
-  components:  {Home ,Layout},
+  components:  {Home ,Layout, Footer},
   data () {
     return {
       

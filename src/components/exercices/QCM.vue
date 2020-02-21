@@ -33,7 +33,6 @@
             </div>
 
             <h3 id="gras"> Pourquoi faire des personas est important ? </h3>
-
             <div class="inter_decalement">
                 <label class="container">
                     Définir un persona sert à comprendre le comportement de vos clients et potentiels prospects sur les canaux digitaux.
