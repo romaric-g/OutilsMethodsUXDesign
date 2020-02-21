@@ -47,10 +47,10 @@
                    <Reminder title="Le jour de la rencontre">
                         <div class="inter-box">
                             <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
-                            <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-1.5 -1.5)">
-                                <path id="Tracé_337" data-name="Tracé 337" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                                <path id="Tracé_338" data-name="Tracé 338" d="M18,9v9l6,3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                            </g>
+                                <g id="Icon_feather-clock" data-name="Icon feather-clock" transform="translate(-1.5 -1.5)">
+                                    <path id="Tracé_337" data-name="Tracé 337" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                    <path id="Tracé_338" data-name="Tracé 338" d="M18,9v9l6,3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                </g>
                             </svg>
                             <p>15 min de briefing de départ</p>
                         </div>
@@ -175,6 +175,15 @@
                     </Reminder> 
                 </template>
             </Content>
+             <Content title="TECHNIQUES GÉNÉRATIVES" reverse="true">
+                <Description>
+                    <h2>Qu’est ce que c’est ?</h2>
+                    <p>Les techniques génératives, un concept participatif. Elles renseignent sur le contexte d’utilisation actuel d’un système. Comprendre le contexte est essentiel. Elles sont créer par des utilisateurs invités à créer des artefacts pour s’exprimer de manière créative ses attentes, ses besoins et ses expériences. </p>
+                </Description>
+                <Items title="Comment ça fonctionne ? ">
+                    <p>Sous forme d’ateliers collaboratifs, les participants créer des collages, des cartes ou alors des storyboards.  Ils expriment leurs vie, leurs émotions, leurs attentes,  leurs valeurs, besoins et expériences. Le concepteur utilise ces méthodes pour générer en collaboration avec les participants de nouveaux concept.   </p>
+                </Items>
+            </Content>
             <Content title="STORYBOARD">
                 <Description>
                     <h2>Qu’est ce que c’est ?</h2>
@@ -238,7 +247,7 @@ import Menu from "./../menu/Menu";
 import Items from "./elements/Items"
 import Description from "./elements/Description"
 import Reminder from "./elements/Reminder"
-
+ 
 
 export default {
     name: "layout",
