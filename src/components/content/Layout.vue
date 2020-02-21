@@ -416,6 +416,9 @@ export default {
 </script>
 
 <style lang="scss">
+html{
+    scroll-behavior: smooth;
+}
 main {
     display: grid;
     grid-template-columns: auto 1fr;
