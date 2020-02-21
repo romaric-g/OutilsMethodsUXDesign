@@ -395,7 +395,7 @@
                     <p>C’est simple, on organise un entretien entre le client et le designer pour déterminer ensemble les choix graphiques. Ce sont ces principaux axes graphiques qui vous guideront dans le maquettage en lui même : construire la page comme elle devra être réalisé une fois codée : on met en place le header, le corps du site, le footer et le background.</p>
                 </Items>
             </Content>
-            <Content title="ÉCHELLES D’UTILISABILITÉS" reverse="true" noimage="true" color="4">
+            <Content title="ÉCHELLES D’UTILISABILITÉS" reverse="true" noimage="true" color="4" ink="echelles_utilisabilites">
                 <Description>
                     <h2>Qu’est ce que c’est ?</h2>
                     <p>Cette méthode est un moyen fiable et reconnu pour recueillir l’avis des users et apporte un complément aux autres évaluations. Elle consiste à mesurer l’avis des utilisateurs grâce à des échelles préconçues. </p>
@@ -404,7 +404,7 @@
                     <p>Il est très important de choisir la bonne échelle afin d’avoir de bons résultats à analyser, le choix est crucial, certaines échelles sont plus utilisées que d’autres, comme: SUS/WAMMI/QUIS/DEEP Mais il en existe énormément, le plus important pour vous sera de choisir la bonne ! Il vous suffira ensuite de donner les questionnaires en ligne ou en papier puis… ANALYSER ! </p>
                 </Items>
             </Content>
-            <Content title="ÉCHELLES UX " color="4">
+            <Content title="ÉCHELLES UX " color="4" ink="echelles_ux" >
                 <Description>
                     <p>L’échelle UX est un questionnaire sous la forme de l’échelle de Likert. Elle permet de faire évaluer  l’expérience utilisateur directement par eux même. Vous pouvez donc l’améliorer et présenter ensuite l’ux optimale. </p>
                 </Description>
@@ -429,7 +429,7 @@
                     </Reminder> 
                 </template>
             </Content>
-            <Content title="ÉVALUATION EXPERTE " noimage="true" color="4">
+            <Content title="ÉVALUATION EXPERTE " noimage="true" color="4" ink="evaluation_experte">
                 <Description>
                     <h1>Qu’est ce que c’est?</h1>
                     <p>L’évaluation experte permet d’identifier les problèmes d’une interface, évaluer un système et lister les problèmes à corriger. Un groupe d’expert UX est essentiel. L’évaluation experte se fait du début jusqu’à la fin du projet. </p>
@@ -453,13 +453,13 @@
                     </Reminder> 
                 </template>
             </Content>
-            <Content title="INSPECTION COGNITIVE" reverse="true" noimage="true" color="4">
+            <Content title="INSPECTION COGNITIVE" reverse="true" noimage="true" color="4" ink="inspection_cognitive">
                 <Description>
                     <h2>Se mettre à la place de l’utilisateur</h2>
                     <p>L’inspection cognitive est une méthode permettant de se mettre à la place de l’utilisateur, de cheminer le système comme il le ferait pour repérer directement les problèmes d’utilisation. Elle est effectué par un professionnel de l’utilisabilité dans le but d’améliorer l’utilisabilité des systèmes interactifs. <br/><br/>La présence d’utilisateurs pour cette méthode est inutile, ce qui est un avantage lorsque le projet manque de temps ou de moyens.</p>
                 </Description>
             </Content>
-            <Content title="TEST DES 5 SECONDES" reverse="true" color="4">
+            <Content title="TEST DES 5 SECONDES" reverse="true" color="4" ink="test_secondes">
                 <Description>
                     <h2>L’importance de la première impression</h2>
                     <p>De la même manière qu’un individu se forge en quelques secondes un opinion sur quelqu’un d’autre, un utilisateur se construit en quelques secondes une représentation favorable ou défavorable d’une interface. Le test des 5 secondes mesure cette première impression. Il peut être utilisé sur une simple maquette fidèle au produit ou sur une interface finie directement..  </p>
@@ -493,7 +493,7 @@
                     </Reminder> 
                 </template>
             </Content>
-            <Content title="TEST UTILISATEUR" color="4">
+            <Content title="TEST UTILISATEUR" color="4" ink="tests_utilisateurs">
                 <Description>
                     <h2>Evaluer l’UX d’un système</h2>
                     <p>C’est LA méthode pour évaluer l’UX d’un système : on met un utilisateur devant notre interface et on observe comment il navigue pour effectuer une tâche bien définie. Elle permet une méthode itérative par excellence, on l’utilise dès la première maquette et jusqu’au produit final. <br><br>
