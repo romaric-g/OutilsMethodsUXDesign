@@ -179,7 +179,7 @@ section.qcm {
 
     /* When the radio button is checked, add a blue background */
     .container input:checked ~ .checkmark {
-    background-color: rgb(249, 168, 38);
+    background-color: #555275;
     }
 
     /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -200,11 +200,18 @@ section.qcm {
 
     label.error {
         color: red;
+
+        &:after {
+            content: "❌"
+        }
     }
 
     label.valide {
         color: green;
         font-weight: 700;
+        &:after {
+            content: "✔️"
+        }
     }
 
 }
