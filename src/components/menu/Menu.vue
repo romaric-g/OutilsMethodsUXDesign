@@ -51,17 +51,15 @@
                                         </svg>
 
                                     </div>
-                                    <p>Analyse</p>
+                                    <p>Idéation</p>
                                 </div>
                                 <div class="section-links">
                                     <ul>
                                         <li><p>Brainstorming</p></li>
                                         <li><p>Carte d’idéation</p></li>
-                                        <li><p>Focus group</p></li>
-                                        <li><p>Persona</p></li>
-                                        <li><p>Expérience Map</p></li>
-                                        <li><p>Complétion des phrases</p></li>
-                                        <li><p>Test de connaissance</p></li>
+                                        <li><p>Techniques génératives</p></li>
+                                        <li><p>Storyboard</p></li>
+                                        <li><p>Tri de carte</p></li>
                                     </ul>
                                 </div>
                             </li>
@@ -76,13 +74,10 @@
                                 </div>
                                 <div class="section-links">
                                     <ul>
-                                        <li><p>Brainstorming</p></li>
-                                        <li><p>Carte d’idéation</p></li>
-                                        <li><p>Focus group</p></li>
-                                        <li><p>Persona</p></li>
-                                        <li><p>Expérience Map</p></li>
-                                        <li><p>Complétion des phrases</p></li>
-                                        <li><p>Test de connaissance</p></li>
+                                        <li><p>Design Persuasif</p></li>
+                                        <li><p>Gamification</p></li>
+                                        <li><p>Iconographie</p></li>
+                                        <li><p>Maquettage</p></li>
                                     </ul>
                                 </div>
                             </li>
@@ -97,13 +92,12 @@
                                 </div>
                                 <div class="section-links">
                                     <ul>
-                                        <li><p>Brainstorming </p></li>
-                                        <li><p>Carte d’idéation</p></li>
-                                        <li><p>Focus group</p></li>
-                                        <li><p>Persona</p></li>
-                                        <li><p>Expérience Map</p></li>
-                                        <li><p>Complétion des phrases</p></li>
-                                        <li><p>Test de connaissance</p></li>
+                                        <li><p>Echelles d’utilisabilités </p></li>
+                                        <li><p>Échelles UX</p></li>
+                                        <li><p>Evaluation experte</p></li>
+                                        <li><p>Inspection cognitive</p></li>
+                                        <li><p>Test des 5 secondes</p></li>
+                                        <li><p>Tests utilisateurs</p></li>
                                     </ul>
                                 </div>
                             </li>                                     
