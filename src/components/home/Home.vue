@@ -9,12 +9,12 @@
             Vous pouvez maintenant apprendre les fondamentaux rapidement et où que vous soyez ! Nos équipes ont réunie des années de savoir en explications simples et ludiques à portée de tous.
           </p>
           <div class="start-box">
-            <button>COMMENCER</button>
+            <a href="#entretiens"><button>COMMENCER</button></a>
             <ul>
-              <li>Découvrir</li>
-              <li>Analyser</li>
-              <li>Création</li>
-              <li>Tester</li>
+              <li><a href="#entretiens">Recherche</a></li>
+              <li><a href="#brainstorming">Idéation</a></li>
+              <li><a href="#design_persuasif">Création</a></li>
+              <li><a href="#echelles_utilisabilites">Tester</a></li>
             </ul>
           </div>
         </section>
