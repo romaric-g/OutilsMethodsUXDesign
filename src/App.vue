@@ -2,7 +2,7 @@
   <div id="app">
     <Home/>
     <Layout/>
-    <DragNDrop/>
+    <DragAndDrop/>
   </div>
 </template>
 

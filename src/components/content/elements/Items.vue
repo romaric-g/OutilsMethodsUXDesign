@@ -1,5 +1,5 @@
 <template>
-    <div class="items-box">
+    <div class="items-box" :class="{childgrow}">
         <h3>{{title}}</h3>
         <div class="content">
             <slot></slot>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-    props: ["title"]
+    props: ["title","childgrow"]
 }
 </script>
 
@@ -19,6 +19,9 @@ export default {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-column-gap: 1rem;
+        }
+        &.childgrow .content {
+            grid-template-columns: 1fr;
         }
         @media screen and (max-width: 800px) { 
             .content {
