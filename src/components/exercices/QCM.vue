@@ -1,5 +1,5 @@
 <template>
-    <div class="qcm">
+    <section class="qcm">
         <div class="centrer">
             <h1 id="connaissances">TEST DE CONNAISSANCES </h1>
         </div>
@@ -131,7 +131,7 @@
             
             <button id="button" >VALIDER VOS REPONSES</button>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -142,7 +142,12 @@ export default {
 </script>
 
 <style lang="scss">
-
+section.qcm {
+    max-width: 1100px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
 .centrer {
     text-align: center;
 }
