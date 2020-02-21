@@ -3,7 +3,7 @@
     <Home/>
     <Layout/>
     <QCM/>  
-    <DragNDrop/>
+    <DragAndDrop/>
   </div>
 </template>
 
@@ -11,11 +11,11 @@
 import Home from "./components/home/Home"
 import Layout from "./components/content/Layout"
 import QCM from "./components/exercices/QCM"
-import DragNDrop from "./components/content/exercices/DragNDrop"
+import DragAndDrop from "./components/exercices/DragAndDrop"
 
 export default {
   name: 'app',
-  components:  {Home ,Layout, DragNDrop,QCM},
+  components:  {Home ,Layout, DragAndDrop,QCM},
   data () {
     return {
       
