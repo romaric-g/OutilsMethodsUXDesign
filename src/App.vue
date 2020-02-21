@@ -2,7 +2,6 @@
   <div id="app">
     <Home/>
     <Layout/>
-    <QCM/>  
     <DragNDrop/>
   </div>
 </template>

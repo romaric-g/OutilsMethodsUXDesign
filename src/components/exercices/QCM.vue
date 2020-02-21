@@ -9,7 +9,7 @@
             
             <div class="inter_decalement">
                 <label class="container"> 
-                    L'entretien consiste simplement à aller voir des personnes qui pourrait potentiellement être intéressé par le produit que vous êtes en train de construire et à lui poser des questions.
+                    L’entretien consiste simplement à aller voir des personnes qui pourrait potentiellement être intéressé par le produit que vous êtes en train de construire et à lui poser des questions.
                     <input type="radio" name="radio">
                     <span class="checkmark"></span>                    
                 </label>
@@ -17,7 +17,7 @@
                 <br>
 
                 <label class="container"> 
-                    L'entretien consiste à préserver la qualité d'un produit. Nous passons par l'étape de nettoyage puis de séchage.
+                    L’entretien consiste à préserver la qualité d’un produit. Nous passons par l’étape de nettoyage puis de séchage.
                     <input type="radio" name="radio">
                     <span class="checkmark"></span>
                 </label>
@@ -25,7 +25,7 @@
                 <br>
 
                 <label class="container">
-                    L'entretien est l'action de tenir, de conserver en bon état :travaux, dépenses nécessaires pour y parvenir.
+                    L’entretien est l’action de tenir, de conserver en bon état ; travaux, dépenses nécessaires pour y parvenir.
                     <input type="radio" name="radio">
                     <span class="checkmark"></span>
                 </label>
@@ -36,8 +36,8 @@
 
             <div class="inter_decalement">
                 <label class="container">
-                    Définir un persona sert à comprendre le comportement de vos clients et potentiels prospects sur les canaix digitaux
-                    <input type="radio" name="radio">
+                    Définir un persona sert à comprendre le comportement de vos clients et potentiels prospects sur les canaux digitaux.
+                    <input type="radio" name="radio1">
                     <span class="checkmark"></span>
                 </label>
 
@@ -45,14 +45,14 @@
 
                 <label class="container">
                     Définir un persona permet au client de se rendre compte de quels couleurs le site sera fait.
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio1">
                     <span class="checkmark"></span>
                 </label>
         
                 <br>
                 <label class="container">
                 Définir un persona est important car il nous permet de définir la typographie.
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio1">
                     <span class="checkmark"></span>
 
                 </label>
@@ -63,22 +63,22 @@
             <div class="inter_decalement">
                 <label class="container">
                     Une expérience map permet de nous donner le plan du projet.
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio2">
                     <span class="checkmark"></span>
                 </label>
         
                 <br>
                 
                 <label class="container">
-                    Il faut que l'employé ait une expérience map pour pouvoir effectuer le projet.
-                    <input type="radio" name="radio">
+                    Il faut que l’employé ait une expérience map pour pouvoir effectuer le projet.
+                    <input type="radio" name="radio2">
                     <span class="checkmark"></span>
                 </label>
         
                 <br>
                 <label class="container">
-                    Une expérience map permet de mieux appréhender les actions de l'utilisateur pour lui proposer une interface adapté.
-                    <input type="radio" name="radio">
+                    Une expérience map permet de mieux appréhender les actions de l’utilisateur pour lui proposer une interface adapté.
+                    <input type="radio" name="radio2">
                     <span class="checkmark"></span>
                 </label>
             </div>
@@ -87,26 +87,18 @@
 
             <div class="inter_decalement">
                 <label class="container">
-                    L'un des avantages de l'observation permet d'observer les employer afin de regarder ou ils en sont dans leurs travaux.
-                    <input type="radio" name="radio">
+                    L’un des avantages de l’observation permet d’observer les employer afin de regarder ou ils en sont dans leurs travaux.
+                    <input type="radio" name="radio3">
                     <span class="checkmark"></span>
                 </label>
                 
                 <br>
                 
                 <label class="container">
-                    Récupérer les données par l'observation permet de faire émerger le non-verbal et les problématiques insoupçonnées auxquelles doit faire face le client dans son environnement naturel.
-                    <input type="radio" name="radio">
+                    Récupérer des données par l’observation permet de faire émerger le non-verbal et des problématiques insoupçonnées auxquelles doit faire face le client dans son environnement naturel.
+                    <input type="radio" name="radio3">
                     <span class="checkmark"></span>
                 </label>
-                
-                <br>
-                
-                <label class="container">
-                    Permet de connaitre l'avancé du travail à faire.
-                    <input type="radio" name="radio">
-                    <span class="checkmark"></span>
-                  </label>
 
             </div>
 
@@ -114,23 +106,23 @@
 
             <div class="inter_decalement">
                 <label class="container">
-                    Le Focus groupe consiste à se focaliser sur une seul et même tâche dans le groupe ( maquettage du site internet).
-                    <input type="radio" name="radio">
+                    Le Focus groupe consiste à se focaliser sur une seul et même tâche dans le groupe (maquettage du site internet)
+                    <input type="radio" name="radio4">
                     <span class="checkmark"></span>
                 </label>
 
                 <br>
                 
                 <label class="container">
-                    Le Focus groupe consiste à regrouper des personnes que vous aurez ciblé afin de discuter des points que vous aurez définis afvec votre équipe.
-                    <input type="radio" name="radio">
+                    Le Focus groupe consiste à regrouper des personnes que vous aurez ciblé afin de discuter des points que vous aurez définis avec votre équipe.
+                    <input type="radio" name="radio4">
                     <span class="checkmark"></span>
                 </label>
                 
                 <br>
                 <label class="container">
-                    Le focus groupe a pour but d'évaluer la première impression que donne notre interface.
-                    <input type="radio" name="radio">
+                    Le focus groupe a pour but d’évaluer la première impression que donne notre interface.
+                    <input type="radio" name="radio4">
                     <span class="checkmark"></span>
                 </label>
             </div>
@@ -155,6 +147,7 @@ export default {
     text-align: center;
 }
 #connaissances{
+    font-family: "Montserrat", sans-serif;
     display: inline-block;
     text-align:center;
     position: relative; 
@@ -171,17 +164,25 @@ export default {
 #gras{
     font-weight : bold;
 }
+
+#button:hover {
+    background-color: #555275;
+    transform: scale(0.97);
+}
+
 #button {
-  background-color: #3F3D56;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    transition-duration: .2s;
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5em;
+    color: white;
+    background-color: #3f3d56;
+    width: 420px;
+    height: 55px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
 }
 .decalement_QCM{
     margin-left:10%;
@@ -240,6 +241,10 @@ export default {
 /* Show the indicator (dot/circle) when checked */
 .container input:checked ~ .checkmark:after {
   display: block;
+}
+
+label{
+    font-family: "Lato", sans-serif;
 }
 
 </style>
