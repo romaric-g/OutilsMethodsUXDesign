@@ -156,6 +156,7 @@
                     </Reminder> 
                 </template>
             </Content>
+            <QCM />
             <Content title="BRAINSTORMING" reverse="true">
                 <Description>
                     <p>Le plus simple pour décrire cette méthode est de vous donner un exemple, il faut créer des phrases de ce genre : “Quand j’utilise ce produit, je me sens …” , à donner à l’utilisateur afin qu’il les complète. Cela permet d’évaluer de manière qualitative l’expérience de l’utilisateur grâce à leur feedback. </p>
@@ -230,7 +231,7 @@
                             </svg>
                             <p>C’est un incontournable pour l’architecture d’informations Les participants se sentiront très concernés par le tri de carteLe traitement des résultats peut être facilité par de nombreux sites en ligneIl est recommandé de ne pas dépasser 50 cartes afin de ne pas perdre l’utilisateur</p>
                         </div>
-                    </Reminder> 
+                    </Reminder>
                 </template>
             </Content>
         </div>
@@ -244,11 +245,12 @@ import Menu from "./../menu/Menu";
 import Items from "./elements/Items"
 import Description from "./elements/Description"
 import Reminder from "./elements/Reminder"
+import QCM from "./../exercices/QCM"
 
 
 export default {
     name: "layout",
-    components: {Menu, Content, Items, Description, Reminder}
+    components: {Menu, Content, Items, Description, Reminder, QCM}
 }
 </script>
 

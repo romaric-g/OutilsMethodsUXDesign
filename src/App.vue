@@ -2,20 +2,18 @@
   <div id="app">
     <Home/>
     <Layout/>
-    <QCM/>  
-    <DragAndDrop/>
+    <DragNDrop/>
   </div>
 </template>
 
 <script>
 import Home from "./components/home/Home"
 import Layout from "./components/content/Layout"
-import QCM from "./components/exercices/QCM"
 import DragAndDrop from "./components/exercices/DragAndDrop"
 
 export default {
   name: 'app',
-  components:  {Home ,Layout, DragAndDrop,QCM},
+  components:  {Home ,Layout, DragAndDrop},
   data () {
     return {
       
