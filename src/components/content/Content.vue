@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section :id="ink">
         <div>
             <div class="big-title-box">
                 <h1 class="big-title">{{ title }}</h1>
@@ -23,7 +23,7 @@ import Description from "./elements/Description"
 import Reminder from "./elements/Reminder"
 export default {
     components: {Items, Reminder, Description},
-    props: ["title","reverse"]
+    props: ["title","reverse","ink"]
 }
 </script>
 
