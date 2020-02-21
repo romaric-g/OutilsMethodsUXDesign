@@ -1,5 +1,5 @@
 <template>
-    <section :id="ink">
+    <section :id="ink" :class="colors">
         <div>
             <div class="big-title-box">
                 <h1 class="big-title">{{ title }}</h1>
@@ -23,7 +23,22 @@ import Description from "./elements/Description"
 import Reminder from "./elements/Reminder"
 export default {
     components: {Items, Reminder, Description},
-    props: ["title","reverse","ink","noimage"]
+    props: ["title","reverse","ink","noimage","color"],
+    data() {
+        return {
+            colorID: this.$props.color || 0
+        }
+    },
+    computed: {
+            colors: function() {
+                return {
+                    yellow: this.colorID == 1,
+                    blue: this.colorID == 2,
+                    red: this.colorID == 3,
+                    green: this.colorID == 4,
+                }
+            }
+    },
 }
 </script>
 
@@ -102,6 +117,27 @@ section {
         .big-title-box .big-title {
             font-size: 1.8em;
         }
+    }
+}
+
+section.yellow {
+    .big-title:after {
+        background-color: var(--section-color-yellow);
+    }
+}
+section.blue {
+    .big-title:after {
+        background-color: var(--section-color-blue);
+    }
+}
+section.red {
+    .big-title:after {
+        background-color: var(--section-color-red);
+    }
+}
+section.green {
+    .big-title:after {
+        background-color: var(--section-color-green);
     }
 }
 

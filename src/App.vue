@@ -2,18 +2,16 @@
   <div id="app">
     <Home/>
     <Layout/>
-    <DragAndDrop/>
   </div>
 </template>
 
 <script>
 import Home from "./components/home/Home"
 import Layout from "./components/content/Layout"
-import DragAndDrop from "./components/exercices/DragAndDrop"
 
 export default {
   name: 'app',
-  components:  {Home ,Layout, DragAndDrop},
+  components:  {Home ,Layout},
   data () {
     return {
       
@@ -23,6 +21,12 @@ export default {
 </script>
 
 <style lang="scss">
+:root {
+    --section-color-yellow: #F9A826;
+    --section-color-blue: #536DFE;
+    --section-color-red: #F50057;
+    --section-color-green: #00BFA6;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,700&display=swap');
