@@ -242,11 +242,7 @@
                     </Reminder> 
                 </template>
             </Content>
-<<<<<<< HEAD
-             <Content title="TECHNIQUES GÉNÉRATIVES" reverse="true" ink="techniques_generatives">
-=======
-             <Content title="TECHNIQUES GÉNÉRATIVES" reverse="true" noimage="true">
->>>>>>> 23d16d9f8674b73385d94f715a56dce4e7a052ae
+             <Content title="TECHNIQUES GÉNÉRATIVES" reverse="true" ink="techniques_generatives" noimage="true">
                 <Description>
                     <h2>Qu’est ce que c’est ?</h2>
                     <p>Les techniques génératives, un concept participatif. Elles renseignent sur le contexte d’utilisation actuel d’un système. Comprendre le contexte est essentiel. Elles sont créer par des utilisateurs invités à créer des artefacts pour s’exprimer de manière créative ses attentes, ses besoins et ses expériences. </p>
