@@ -24,13 +24,13 @@
                                 </div>
                                 <div class="section-links">
                                     <ul>
-                                        <li><p>Entretiens</p></li>
-                                        <li><p>Observation</p></li>
-                                        <li><p>Focus group</p></li>
-                                        <li><p>Persona</p></li>
-                                        <li><p>Expérience Map</p></li>
-                                        <li><p>Complétion des phrases</p></li>
-                                        <li><p>Test de connaissance</p></li>
+                                        <li><p><a href="#entretiens">Entretiens</a></p></li>
+                                        <li><p><a href="#focus_group">Focus group</a></p></li>
+                                        <li><p><a href="#observation">Observation</a></p></li>
+                                        <li><p><a href="#persona">Persona</a></p></li>
+                                        <li><p><a href="#exp_map">Expérience Map</a></p></li>
+                                        <li><p><a href="#campletion_phrases">Complétion des phrases</a></p></li>
+                                        <li><p><a href="#test_connaissance">Test de connaissance</a></p></li>
                                     </ul>
                                 </div>
                             </li>
@@ -55,11 +55,11 @@
                                 </div>
                                 <div class="section-links">
                                     <ul>
-                                        <li><p>Brainstorming</p></li>
-                                        <li><p>Carte d’idéation</p></li>
-                                        <li><p>Techniques génératives</p></li>
-                                        <li><p>Storyboard</p></li>
-                                        <li><p>Tri de carte</p></li>
+                                        <li><p><a href="#brainstorming">Brainstorming</a></p></li>
+                                        <li><p><a href="#carte_ideation">Carte d’idéation</a></p></li>
+                                        <li><p><a href="#techniques_generatives">Techniques génératives</a></p></li>
+                                        <li><p><a href="#storyboard">Storyboard</a></p></li>
+                                        <li><p><a href="#tri_de_carte">Tri de carte</a></p></li>
                                     </ul>
                                 </div>
                             </li>
@@ -74,10 +74,10 @@
                                 </div>
                                 <div class="section-links">
                                     <ul>
-                                        <li><p>Design Persuasif</p></li>
-                                        <li><p>Gamification</p></li>
-                                        <li><p>Iconographie</p></li>
-                                        <li><p>Maquettage</p></li>
+                                        <li><p><a href="#design_persuasif">Design Persuasif</a></p></li>
+                                        <li><p><a href="#gamification">Gamification</a></p></li>
+                                        <li><p><a href="#iconographie">Iconographie</a></p></li>
+                                        <li><p><a href="#maquettage">Maquettage</a></p></li>
                                     </ul>
                                 </div>
                             </li>
@@ -92,12 +92,12 @@
                                 </div>
                                 <div class="section-links">
                                     <ul>
-                                        <li><p>Echelles d’utilisabilités </p></li>
-                                        <li><p>Échelles UX</p></li>
-                                        <li><p>Evaluation experte</p></li>
-                                        <li><p>Inspection cognitive</p></li>
-                                        <li><p>Test des 5 secondes</p></li>
-                                        <li><p>Tests utilisateurs</p></li>
+                                        <li><p><a href="#echelles_utilisabilites">Echelles d’utilisabilités</a></p></li>
+                                        <li><p><a href="#echelles_ux">Échelles UX</a></p></li>
+                                        <li><p><a href="#evaluation_experte">Evaluation experte</a></p></li>
+                                        <li><p><a href="#inspection_cognitive">Inspection cognitive</a></p></li>
+                                        <li><p><a href="#test_secondes">Test des 5 secondes</a></p></li>
+                                        <li><p><a href="#tests_utilisateurs">Tests utilisateurs</a></p></li>
                                     </ul>
                                 </div>
                             </li>                                     
@@ -350,5 +350,9 @@ nav.close {
 /* .slide-fade-leave-active below version 2.1.8 */ {
   transform: translateX(10px);
   opacity: 0;
+}
+a{
+    color:black;
+    text-decoration: none;
 }
 </style>
